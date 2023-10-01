@@ -1,0 +1,91 @@
+body{margin: 0px; padding: 0px; background-image: url(https://www.twintowns.com.au/wp-content/uploads/2017/11/footer-background.jpg);}
+ul{list-style: none; }
+a{text-decoration: none;}
+nav{display: flex; justify-content: space-between; align-items: center; height: 80px; 
+    background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,0.2)), url(https://www.twintowns.com.au/wp-content/uploads/2017/11/footer-background.jpg);}
+nav ul{display: flex;}
+nav li a{ 
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid  transparent; 
+    border-radius: 6px;
+    padding: 5px 20px;
+    margin-top: 20 px ;
+    margin-right: 10px;
+    font-size: 15px;
+    transition: 0.8s;
+    display: flex;}
+ul li a:hover{color: black; background-color: blue;}
+ul li.active a{background-color: blue; cursor: pointer;  }
+.Profile{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white; font-size: 25px; font-weight: bold;
+    margin: 10px; padding: 10px;}
+.Profile:hover{ color: blue}
+.Profile.active{ color: blue}
+
+/* Text nya broo */
+.home p{
+    list-style: 0px; margin:5px; padding-top: 5px; }
+.home p:nth-child(1){
+    font-family: 'lucida';
+    font-weight: bold; color:blue; font-size:20px;}
+.home p:nth-child(2){
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bold; color:white; font-size:50px;}
+.home p:nth-child(3){
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(252, 199, 102); font-size:20px;}
+.home{
+    left: 5%; right: 5%;position: absolute; transform: translate(0%, 20%);
+    margin-top: 80px; }
+.home p:nth-child(4){
+    font-family: 'verdana';
+    font-weight:normal; color:white; font-size:16px;}
+/* Gambar nya Brooo */
+.pic{
+    width: 250px; height: auto; position: absolute;
+    left: 67%; top: 30%; border-radius: 30px;}
+
+/* ini skill nya broo */
+.table{
+    width: 100%; height: auto; position: absolute; float: left;
+    left: 0px; top: 100%; border-radius: 0px; text-align:center;justify-content: center;
+    background-image: url(https://www.twintowns.com.au/wp-content/uploads/2017/11/footer-background.jpg); font-family: verdana; font-size: 20px;font-weight: bold;color: white;}
+.table p:nth-child(2){font-size: 15px; color: white; font-weight: normal; font-family: verdana; margin-bottom: 20px;margin-top: 10px;padding: 20px;}
+.table p:nth-child(4){font-size: 15px; color: white; font-weight: normal; font-family: verdana; margin-bottom: 50px;margin-top: 10px;padding: 20px;}
+.table p:nth-child(1){font-size: 25px; color: white; font-weight: bold; font-family: verdana; margin-bottom: 0px;margin-top: 10px;padding: 10px;background-color: orange;}
+.table p:nth-child(1):hover{color: black; }
+.table p:nth-child(3){font-size: 25px; color: white; font-weight: bold; font-family: verdana; margin-bottom: 0px;margin-top: 10px;padding: 10px;background-color: orange;}
+.table p:nth-child(3):hover{color: black; }
+
+/* ini footer nya broo */
+.footer-distributed{
+    background-color:black; width:100%; height: auto; position: absolute; 
+    left: 0px; top: 100%; border-radius: 0px;}
+
+* {font-family: Roboto;}
+    
+.footer-distributed{background: #444; box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12); box-sizing: border-box;
+        width: 100%; font: bold 16px sans-serif;text-align: left; padding: 20px 130px 40px; overflow: hidden;left: 0px; top: 150%; border-radius: 0px;}
+    
+/* Footer contact us brooo */
+.footer-distributed .footer-right{float: right;  }
+.footer-distributed .footer-right p{ font-family:verdana; font-size:20px; margin: 10px 20px 0 0; color:orange; margin-bottom: 10px; }
+
+ /* Contact nya ini broo */
+.footer-distributed form{display: inline-block;}
+.footer-distributed form input,.footer-distributed form textarea{display: block;  border-radius: 3px;  box-sizing: border-box;
+        background-color:  #1f2022; box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);border: none;resize: none; font: inherit;
+        font-size: 14px; font-weight: normal;  color:  #d1d2d2;width: 1000px;padding: 18px; }
+    
+.footer-distributed ::-moz-placeholder { color:  #5c666b; opacity: 1;}
+.footer-distributed :-ms-input-placeholder{color:  #5c666b;}
+.footer-distributed form input{height: 45px;margin-bottom: 15px;}
+.footer-distributed form textarea{height: 70px;margin-bottom: 20px;}
+.footer-distributed form button{border-radius: 3px;background-color:  #33383b;border: 0; color: white;padding: 15px 100px;font-weight: bold; float: right;}
+
+  
+    
+    
+
